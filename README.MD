@@ -7,8 +7,7 @@ TO RUN:
 
 2. execute maven command:
 
-
-    mvn package
+       mvn package
 
 3. remove ".rename" from the file name of the file
      validate.sh.rename if on Mac/Linux
@@ -18,15 +17,15 @@ TO RUN:
 4. If on mac or linux you may need to add permissions to validate.sh first: 
 
 
-     chmod +x validate.sh
+       chmod +x validate.sh
      
 5. Execute the program:
 
    Mac/Linux:
       
       
-     ./validate.sh  "PATH_TO_INPUT_FILE"
+       ./validate.sh  [PATH_TO_INPUT_FILE]
      
    Windows:
 
-    validate.bat "PATH_TO_INPUT_FILE"
+       validate.bat [PATH_TO_INPUT_FILE]
